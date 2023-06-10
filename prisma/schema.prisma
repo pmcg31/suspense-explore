@@ -1,0 +1,22 @@
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "mysql"
+    url      = env("DATABASE_URL")
+}
+
+model Song {
+    id       String @id @default(uuid())
+    name     String
+    artist   Artist @relation(fields: [artistId], references: [id])
+    artistId String
+    year     Int
+}
+
+model Artist {
+    id    String @id @default(uuid())
+    name  String
+    songs Song[]
+}
