@@ -4,6 +4,40 @@ import readline from 'readline';
 
 const prisma = new PrismaClient();
 
+async function storeSong({
+  songName,
+  artistName,
+  year
+}: {
+  songName: string;
+  artistName: string;
+  year: number;
+}) {
+  // Do we know about this artist already?
+  let artist = await prisma.artist.findFirst({
+    where: {
+      name: artistName
+    }
+  });
+  if (artist === null) {
+    // No, create it
+    artist = await prisma.artist.create({
+      data: {
+        name: artistName
+      }
+    });
+  }
+
+  // Store the song
+  await prisma.song.create({
+    data: {
+      name: songName,
+      artistId: artist.id,
+      year
+    }
+  });
+}
+
 async function main() {
   const stream = fs.createReadStream('prisma/classic-rock-song-list.csv');
 
@@ -76,29 +110,11 @@ async function main() {
         }
       }
 
-      // Line parsing complete; do we know about
-      // this artist already?
-      let artist = await prisma.artist.findFirst({
-        where: {
-          name: fields[1]
-        }
-      });
-      if (artist === null) {
-        // No, create it
-        artist = await prisma.artist.create({
-          data: {
-            name: fields[1]
-          }
-        });
-      }
-
-      // Store the song
-      await prisma.song.create({
-        data: {
-          name: fields[0],
-          artistId: artist.id,
-          year: Number(fields[2]) || 0
-        }
+      // Line parsing complete; store song in db
+      await storeSong({
+        songName: fields[0],
+        artistName: fields[1],
+        year: Number(fields[2]) || 0
       });
 
       // Reset fields
