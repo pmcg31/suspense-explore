@@ -1,13 +1,18 @@
 Song Clean,ARTIST CLEAN,Release Year,COMBINED,First?,Year?,PlayCount,F*G
 Caught Up in You,.38 Special,1982,Caught Up in You by .38 Special,1,1,82,82
+Have a Drink On Me,AC/DC,1980,Have a Drink On Me by AC/DC,1,1,39,39
+Kryptonite,3 Doors Down,2000,Kryptonite by 3 Doors Down,1,1,13,13
+What's Up?,4 Non Blondes,1992,What's Up? by 4 Non Blondes,1,1,3,3
+Bad Company,Bad Company,1974,Bad Company by Bad Company,1,1,96,96
+Big Ten Inch Record,Aerosmith,1975,Big Ten Inch by Aerosmith,1,1,3,3
+Thunderstruck,AC/DC,1990,Thunderstruck by AC/DC,1,1,34,34
+Pink,Aerosmith,1997,Pink by Aerosmith,1,1,1,1
 Fantasy Girl,.38 Special,,Fantasy Girl by .38 Special,1,0,3,0
 Hold On Loosely,.38 Special,1981,Hold On Loosely by .38 Special,1,1,85,85
 Rockin' Into the Night,.38 Special,1980,Rockin' Into the Night by .38 Special,1,1,18,18
 Art For Arts Sake,10cc,1975,Art For Arts Sake by 10cc,1,1,1,1
-Kryptonite,3 Doors Down,2000,Kryptonite by 3 Doors Down,1,1,13,13
 Loser,3 Doors Down,2000,Loser by 3 Doors Down,1,1,1,1
 When I'm Gone,3 Doors Down,2002,When I'm Gone by 3 Doors Down,1,1,6,6
-What's Up?,4 Non Blondes,1992,What's Up? by 4 Non Blondes,1,1,3,3
 Take On Me,a-ha,1985,Take On Me by a-ha,1,1,1,1
 "Baby, Please Don't Go",AC/DC,,"Baby, Please Don't Go by AC/DC",1,0,1,0
 Back In Black,AC/DC,1980,Back In Black by AC/DC,1,1,97,97
@@ -15,11 +20,10 @@ Big Gun,AC/DC,1993,Big Gun by AC/DC,1,1,6,6
 CAN'T STOP ROCK'N'ROLL,AC/DC,,CAN'T STOP ROCK'N'ROLL by AC/DC,1,0,5,0
 Dirty Deeds Done Dirt Cheap,AC/DC,1976,Dirty Deeds Done Dirt Cheap by AC/DC,1,1,85,85
 For Those About To Rock,AC/DC,1981,For Those About To Rock by AC/DC,1,1,46,46
+Highway To Hell,AC/DC,1979,Highway To Hell by AC/DC,1,1,92,92
 Girls Got Rhythm,AC/DC,,Girls Got Rhythm by AC/DC,1,0,24,0
 Hard As A Rock,AC/DC,1995,Hard As A Rock by AC/DC,1,1,1,1
-Have a Drink On Me,AC/DC,1980,Have a Drink On Me by AC/DC,1,1,39,39
 Hells Bells,AC/DC,1980,Hells Bells by AC/DC,1,1,74,74
-Highway To Hell,AC/DC,1979,Highway To Hell by AC/DC,1,1,92,92
 It's A Long Way To The Top,AC/DC,1975,It's A Long Way To The Top by AC/DC,1,1,39,39
 Jailbreak,AC/DC,1984,Jailbreak by AC/DC,1,1,1,1
 Let There Be Rock,AC/DC,1977,Let There Be Rock by AC/DC,1,1,3,3
@@ -32,7 +36,6 @@ Shoot To Thrill,AC/DC,,Shoot To Thrill by AC/DC,1,0,45,0
 Shot Down In Flames,AC/DC,1979,Shot Down In Flames by AC/DC,1,1,2,2
 Sin City,AC/DC,,Sin City by AC/DC,1,0,1,0
 T.N.T.,AC/DC,1975,T.N.T. by AC/DC,1,1,66,66
-Thunderstruck,AC/DC,1990,Thunderstruck by AC/DC,1,1,34,34
 Touch Too Much,AC/DC,1979,Touch Too Much by AC/DC,1,1,2,2
 What Do You Do For Money Honey,AC/DC,,What Do You Do For Money Honey by AC/DC,1,0,2,0
 Who Made Who,AC/DC,1986,Who Made Who by AC/DC,1,1,12,12
@@ -43,7 +46,6 @@ Dog On A Leash,Adelitas Way,2014,Dog On A Leash by Adelitas Way,1,1,4,4
 Angel,Aerosmith,1987,Angel by Aerosmith,1,1,12,12
 "Baby, Please Don't Go",Aerosmith,,"Baby, Please Don't Go by Aerosmith",1,0,1,0
 Back in the Saddle,Aerosmith,1976,Back in the Saddle by Aerosmith,1,1,39,39
-Big Ten Inch,Aerosmith,1975,Big Ten Inch by Aerosmith,1,1,3,3
 Come Together,Aerosmith,,Come Together by Aerosmith,1,0,65,0
 Crazy,Aerosmith,1993,Crazy by Aerosmith,1,1,7,7
 Cryin',Aerosmith,1993,Cryin' by Aerosmith,1,1,15,15
@@ -60,7 +62,6 @@ Love In An Elevator,Aerosmith,1989,Love In An Elevator by Aerosmith,1,1,35,35
 Mama Kin,Aerosmith,1973,Mama Kin by Aerosmith,1,1,5,5
 No More No More,Aerosmith,1975,No More No More by Aerosmith,1,1,2,2
 One Way Street,Aerosmith,,One Way Street by Aerosmith,1,0,1,0
-Pink,Aerosmith,1997,Pink by Aerosmith,1,1,1,1
 Rag Doll,Aerosmith,1987,Rag Doll by Aerosmith,1,1,47,47
 Same Old Song and Dance,Aerosmith,1974,Same Old Song and Dance by Aerosmith,1,1,18,18
 Seasons of Wither,Aerosmith,1974,Seasons of Wither by Aerosmith,1,1,2,2
@@ -126,7 +127,6 @@ Let It Ride,Bachman-Turner Overdrive,1973,Let It Ride by Bachman-Turner Overdriv
 Roll On Down The Highway,Bachman-Turner Overdrive,,Roll On Down The Highway by Bachman-Turner Overdrive,1,0,5,0
 Takin' Care Of Business,Bachman-Turner Overdrive,1973,Takin' Care Of Business by Bachman-Turner Overdrive,1,1,39,39
 You Ain't Seen Nothin' Yet,Bachman-Turner Overdrive,1974,You Ain't Seen Nothin' Yet by Bachman-Turner Overdrive,1,1,69,69
-Bad Company,Bad Company,1974,Bad Company by Bad Company,1,1,96,96
 Burnin' Sky,Bad Company,1977,Burnin' Sky by Bad Company,1,1,41,41
 Can't Get Enough,Bad Company,1974,Can't Get Enough by Bad Company,1,1,41,41
 Feel Like Makin' Love,Bad Company,,Feel Like Makin' Love by Bad Company,1,0,113,0
